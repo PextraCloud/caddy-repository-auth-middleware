@@ -1,0 +1,16 @@
+{
+	admin off
+	debug
+}
+
+:8000 {
+	route {
+		pextra_license_auth {
+			product_id "62eaa7bf-076a-4d12-b01e-b948b0e3a357"
+			cache_ttl 300s
+			endpoint "https://example.com/api/licenses/{license}/validate"
+		}
+	}
+
+	reverse_proxy https://example.com
+}

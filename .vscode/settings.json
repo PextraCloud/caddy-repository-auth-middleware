@@ -1,0 +1,7 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"copyrightInserter.holder": "Pextra Inc.",
+	"copyrightInserter.license": "apache",
+}
